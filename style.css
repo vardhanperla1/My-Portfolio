@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(self-image-1.jpg);
+	background-image: url(my_image.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -284,12 +284,12 @@ p {
 	margin-top: 50px;
 }
 #services .service-item {
-	flex-basis: 80%;
+	/* flex-basis: 80%; */
 	display: flex;
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	padding: 30px;
+	padding: 23px;
 	border-radius: 10px;
 	background-image: url(./img/img-1.png);
 	background-size: cover;
@@ -699,5 +699,11 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+}
+
+.var::before {
+	content: "• "; /* Adds a dot before the text */
+	color: #ffffff;  /* Set the color of the dot */
+	font-size: 25px; /* Set the size of the dot */
 }
 /* End  Media Query For Desktop */
